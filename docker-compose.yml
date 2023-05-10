@@ -9,7 +9,7 @@ services:
     env_file:
       - ./.env
   backend:
-    image: ilhamtahir/proto-hub-service
+    image: ilhamtahir/proto-hub-service:main
     ports:
       - "8082:80"
     volumes:

@@ -18,6 +18,14 @@ MYSQL_PASSWORD=   # 数据库密码
 DATABASE_NAME=proto-hub  #数据库名称，建议`proto-hub`
 FILE_UPLOAD_DIR=/data  # 文件上传目录
 FRONTEND_HOST_NAME=localhost  #服务域名，如果本地localhost即可，支持多个域名空格分割
+
+
+
+LDAP_URLS=ldap://localhost:389 # LDAP URL地址
+LDAP_BASE=  # LDAP Base DN
+LDAP_USERNAME=  # LDAP UserName DN
+LDAP_PASSWORD= # LDAP PASSWORD DN
+LDAP_ENABLED=true  # 是否开启LDAP
 ```
 
 ### 运行
